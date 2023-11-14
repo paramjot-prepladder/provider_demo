@@ -78,7 +78,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           body: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.end,
             children: [
               Consumer<LoginProvider>(builder: (context, loginProvider, _) {
                 return Text(context
